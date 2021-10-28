@@ -1,21 +1,7 @@
 # Bank
 
-**TODO: Add description**
+**Resumo**
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `bank` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:bank, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/bank](https://hexdocs.pm/bank).
-
+## Projeto de Banco simples
+Contém métodos de cadastro de contas, com nome e email, e verificação de saldo, existência de conta.
+Permite criar contas novas com saldo inicial de 1000 reais, e transferências com outras contas:
